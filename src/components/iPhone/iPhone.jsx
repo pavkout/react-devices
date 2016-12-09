@@ -4,7 +4,7 @@ import '../../device.post.css';
 
 export default class iPhone extends Component {
   static propTypes = {
-    model: PropTypes.oneOf(['iphone5c', 'iphone5s', 'iphone6plus', 'iphone6']),
+    model: PropTypes.oneOf(['iphone5c', 'iphone5s', 'iphone6plus', 'iphone6', 'iphone4s']),
     color: PropTypes.oneOf(['silver', 'black', 'gold', 'white', 'red', 'yellow', 'green', 'blue']),
     landscape: PropTypes.bool,
     screen: PropTypes.oneOfType([
@@ -32,6 +32,7 @@ export default class iPhone extends Component {
       iphone6plus: model === 'iphone6plus',
       iphone5s: model === 'iphone5s',
       iphone5c: model === 'iphone5c',
+      iphone4s: model === 'iphone4s',
       black: color === 'black',
       silver: color === 'silver',
       gold: color === 'gold',
