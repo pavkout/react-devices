@@ -40,7 +40,6 @@ Please [Open issue](https://github.com/pavkout/react-devices/issues), describe b
 * landscape
 * portrait
 
-..
 ### Some examples
 ```js
 
