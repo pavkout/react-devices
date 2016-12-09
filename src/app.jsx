@@ -67,6 +67,7 @@ export default class App extends Component {
             <button onClick={() => { this.handleModelClick('iphone6plus'); }}>iPhone 6 Plus</button>
             <button onClick={() => { this.handleModelClick('iphone5s'); }}>iPhone 5s</button>
             <button onClick={() => { this.handleModelClick('iphone5c'); }}>iPhone 5c</button>
+            <button onClick={() => { this.handleModelClick('iphone4s'); }}>iPhone 4s</button>
             <button onClick={() => { this.handleModelClick('s5'); }}>s5</button>
             <button onClick={() => { this.handleModelClick('lumia920'); }}>lumia920</button>
             <button onClick={() => { this.handleModelClick('htc-one'); }}>htc-one</button>
