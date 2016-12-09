@@ -1,7 +1,6 @@
 import React, {PropTypes, Component} from 'react';
 import { RadioGroup, Radio } from 'react-radio-group';
 import { IPhone, Android, IPad, Mac } from 'react-devices';
-// import iPhone from 'iPhone';
 
 export default class App extends Component {
   constructor(props) {
