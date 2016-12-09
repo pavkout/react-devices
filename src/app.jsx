@@ -1,5 +1,5 @@
 import React, {PropTypes, Component} from 'react';
-
+import { RadioGroup, Radio } from 'react-radio-group';
 import { IPhone, Android, IPad, Mac } from 'react-devices';
 // import iPhone from 'iPhone';
 
@@ -7,19 +7,23 @@ export default class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { color: 'black', model: "iphone6", landscape: false };
+    this.state = { color: 'black', model: "iphone6", landscape: 'false' };
   }
 
-  handleColorClick(color) {
-    this.setState({ color });
+  handleColorChange(color) {
+   this.setState({ color });
   }
 
-  handleModelClick(model) {
-    this.setState({ model });
+  handleModelChange(model) {
+   this.setState({ model });
   }
 
-  handleLandscapeClick(landscape) {
-    this.setState({ landscape });
+  handleLandscapeChange(landscape) {
+    if (landscape === 'true') {
+      this.setState({ landscape: 'true' });
+    } else {
+      this.setState({ landscape: 'false' });
+    }
   }
 
   renderIPhone() {
@@ -27,7 +31,7 @@ export default class App extends Component {
       <IPhone
         model={this.state.model}
         color={this.state.color}
-        landscape={this.state.landscape}
+        landscape={this.state.landscape === 'true' ? true : false}
       />
     );
   }
@@ -37,7 +41,7 @@ export default class App extends Component {
       <Android
         model={this.state.model}
         color={this.state.color}
-        landscape={this.state.landscape}
+        landscape={this.state.landscape === 'true' ? true : false}
       />
     );
   }
@@ -59,7 +63,7 @@ export default class App extends Component {
   }
 
   render() {
-    let device = 'iphone';
+    let device;
 
     if (['s5', 'lumia920', 'htc-one', 'nexus5'].includes(this.state.model)) {
       device = this.renderAndroid();
@@ -72,37 +76,57 @@ export default class App extends Component {
     }
 
     return (
-      <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' , flexDirection: 'column', alignItems: 'center' }}>
-          <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' }}>
-            <button style={{ backgroundColor: 'gold', color: 'white' }} onClick={() => { this.handleColorClick('gold'); }}>Gold</button>
-            <button style={{ backgroundColor: 'black', color: 'white' }} onClick={() => { this.handleColorClick('black'); }}>Black</button>
-            <button style={{ backgroundColor: 'silver', color: 'white' }} onClick={() => { this.handleColorClick('silver'); }}>Silver</button>
-            <button style={{ backgroundColor: 'white', color: 'black' }} onClick={() => { this.handleColorClick('white'); }}>White</button>
-            <button style={{ backgroundColor: 'red', color: 'white' }} onClick={() => { this.handleColorClick('red'); }}>red</button>
-            <button style={{ backgroundColor: 'yellow', color: 'white' }} onClick={() => { this.handleColorClick('yellow'); }}>Yellow</button>
-            <button style={{ backgroundColor: 'green', color: 'white' }} onClick={() => { this.handleColorClick('green'); }}>Green</button>
-            <button style={{ backgroundColor: 'blue', color: 'white' }} onClick={() => { this.handleColorClick('blue'); }}>Blue</button>
+      <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center', minHeight: '800' }}>
+        <div style={{ width: '10%', display: 'flex', 'justifyContent': 'center' , flexDirection: 'column', alignItems: 'center' }}>
+          <div style={{ width: '100%', display: 'flex', flexDirection: 'column', 'justifyContent': 'center' , border: '1px solid black' }}>
+            <RadioGroup
+              name="color"
+              selectedValue={this.state.color}
+              onChange={(value) => { this.handleColorChange(value); }}
+            >
+              <Radio value="gold" />Gold
+              <Radio value="black" />Black
+              <Radio value="silver" />Silver
+              <Radio value="white" />White
+              <Radio value="red" />Red
+              <Radio value="yellow" />Yellow
+              <Radio value="green" />Green
+              <Radio value="blue" />Blue
+            </RadioGroup>
           </div>
-          <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' }}>
-            <button onClick={() => { this.handleModelClick('iphone6'); }}>iPhone 6</button>
-            <button onClick={() => { this.handleModelClick('iphone6plus'); }}>iPhone 6 Plus</button>
-            <button onClick={() => { this.handleModelClick('iphone5s'); }}>iPhone 5s</button>
-            <button onClick={() => { this.handleModelClick('iphone5c'); }}>iPhone 5c</button>
-            <button onClick={() => { this.handleModelClick('iphone4s'); }}>iPhone 4s</button>
-            <button onClick={() => { this.handleModelClick('s5'); }}>s5</button>
-            <button onClick={() => { this.handleModelClick('lumia920'); }}>lumia920</button>
-            <button onClick={() => { this.handleModelClick('htc-one'); }}>htc-one</button>
-            <button onClick={() => { this.handleModelClick('nexus5'); }}>nexus5</button>
-            <button onClick={() => { this.handleModelClick('ipad'); }}>iPad</button>
-            <button onClick={() => { this.handleModelClick('macbook'); }}>Macbook</button>
+          <div style={{ width: '100%', display: 'flex', flexDirection: 'column', 'justifyContent': 'center', border: '1px solid black' }}>
+            <RadioGroup
+              name="iphone"
+              selectedValue={this.state.model}
+              onChange={(value) => { this.handleModelChange(value); }}
+            >
+              <Radio value="iphone6" />iPhone 6
+              <Radio value="iphone6plus" />iPhone 6 Plus
+              <Radio value="iphone5s" />iPhone 5s
+              <Radio value="iphone5c" />iPhone 5c
+              <Radio value="iphone4s" />iPhone 4s
+              <Radio value="s5" />Sumsung s5
+              <Radio value="lumia920" />lumia920
+              <Radio value="htc-one" />htc-one
+              <Radio value="nexus5" />nexus5
+              <Radio value="ipad" />ipad
+              <Radio value="macbook" />Macbook
+            </RadioGroup>
           </div>
-          <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' }}>
-            <button onClick={() => { this.handleLandscapeClick(true); }}>Landscape</button>
-            <button onClick={() => { this.handleLandscapeClick(false); }}>Portait</button>
+          <div style={{ width: '100%', display: 'flex', flexDirection: 'column', 'justifyContent': 'center' , border: '1px solid black' }}>
+            <RadioGroup
+              name="landscape"
+              selectedValue={this.state.landscape}
+              onChange={(value) => { this.handleLandscapeChange(value); }}
+            >
+              <Radio value="true" />Landscape
+              <Radio value="false" />Portait
+            </RadioGroup>
           </div>
         </div>
-        {device}
+        <div style={{ width: '90%', display: 'flex', 'justifyContent': 'center', alignItems: 'center'}}>
+          {device}
+        </div>
       </div>
     );
   }
