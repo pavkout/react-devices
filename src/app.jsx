@@ -1,6 +1,6 @@
 import React, {PropTypes, Component} from 'react';
 
-import { IPhone } from 'react-devices';
+import { IPhone, Android } from 'react-devices';
 // import iPhone from 'iPhone';
 
 export default class App extends Component {
@@ -17,11 +17,38 @@ export default class App extends Component {
   handleModelClick(model) {
     this.setState({ model });
   }
+
   handleLandscapeClick(landscape) {
     this.setState({ landscape });
   }
 
+  renderIPhone() {
+    return (
+      <IPhone
+        model={this.state.model}
+        color={this.state.color}
+        landscape={this.state.landscape}
+      />
+    );
+  }
+
+  renderAndroid() {
+    return (
+      <Android
+        model={this.state.model}
+        color={this.state.color}
+        landscape={this.state.landscape}
+      />
+    );
+  }
+
   render() {
+    let device = 'iphone';
+
+    if (['s5', 'lumia920', 'htc-one', 'nexus5'].includes(this.state.model)) {
+      device = 'android';
+    }
+
     return (
       <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center', flexDirection: 'column', alignItems: 'center' }}>
         <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' , flexDirection: 'column', alignItems: 'center' }}>
@@ -40,17 +67,18 @@ export default class App extends Component {
             <button onClick={() => { this.handleModelClick('iphone6plus'); }}>iPhone 6 Plus</button>
             <button onClick={() => { this.handleModelClick('iphone5s'); }}>iPhone 5s</button>
             <button onClick={() => { this.handleModelClick('iphone5c'); }}>iPhone 5c</button>
+            <button onClick={() => { this.handleModelClick('s5'); }}>s5</button>
+            <button onClick={() => { this.handleModelClick('lumia920'); }}>lumia920</button>
+            <button onClick={() => { this.handleModelClick('htc-one'); }}>htc-one</button>
+            <button onClick={() => { this.handleModelClick('nexus5'); }}>nexus5</button>
           </div>
           <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' }}>
             <button onClick={() => { this.handleLandscapeClick(true); }}>Landscape</button>
             <button onClick={() => { this.handleLandscapeClick(false); }}>Portait</button>
           </div>
         </div>
-        <IPhone
-          model={this.state.model}
-          color={this.state.color}
-          landscape={this.state.landscape}
-        />
-      </div>);
+        {device === 'iphone' ? this.renderIPhone() : this.renderAndroid()}
+      </div>
+    );
   }
 };
