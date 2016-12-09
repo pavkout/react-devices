@@ -1,6 +1,6 @@
 import React, {PropTypes, Component} from 'react';
 
-import { IPhone, Android, IPad } from 'react-devices';
+import { IPhone, Android, IPad, Mac } from 'react-devices';
 // import iPhone from 'iPhone';
 
 export default class App extends Component {
@@ -52,6 +52,12 @@ export default class App extends Component {
     );
   }
 
+  renderMac() {
+    return (
+      <Mac model={this.state.model} />
+    );
+  }
+
   render() {
     let device = 'iphone';
 
@@ -59,6 +65,8 @@ export default class App extends Component {
       device = this.renderAndroid();
     } else if (['ipad'].includes(this.state.model)) {
       device = this.renderIPad();
+    } else if (['macbook'].includes(this.state.model)) {
+      device = this.renderMac();
     } else {
       device = this.renderIPhone();
     }
@@ -87,6 +95,7 @@ export default class App extends Component {
             <button onClick={() => { this.handleModelClick('htc-one'); }}>htc-one</button>
             <button onClick={() => { this.handleModelClick('nexus5'); }}>nexus5</button>
             <button onClick={() => { this.handleModelClick('ipad'); }}>iPad</button>
+            <button onClick={() => { this.handleModelClick('macbook'); }}>Macbook</button>
           </div>
           <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' }}>
             <button onClick={() => { this.handleLandscapeClick(true); }}>Landscape</button>
