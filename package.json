@@ -1,0 +1,29 @@
+{
+  "name": "react-devices",
+  "version": "1.0.0",
+  "description": "React Devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavkout/react-devices.git"
+  },
+  "keywords": [
+    "react",
+    "devices",
+    "mobile",
+    "desktop",
+    "css",
+    "ios",
+    "android",
+    "mac"
+  ],
+  "author": "Koutoglou <pkoutoglou@gmail.com> (http://www.pavdroid.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavkout/react-devices/issues"
+  },
+  "homepage": "https://github.com/pavkout/react-devices#readme"
+}
