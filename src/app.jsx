@@ -1,6 +1,6 @@
 import React, {PropTypes, Component} from 'react';
 
-import { IPhone, Android } from 'react-devices';
+import { IPhone, Android, IPad } from 'react-devices';
 // import iPhone from 'iPhone';
 
 export default class App extends Component {
@@ -42,11 +42,25 @@ export default class App extends Component {
     );
   }
 
+  renderIPad() {
+    return (
+      <IPad
+        model={this.state.model}
+        color={this.state.color}
+        landscape={this.state.landscape}
+      />
+    );
+  }
+
   render() {
     let device = 'iphone';
 
     if (['s5', 'lumia920', 'htc-one', 'nexus5'].includes(this.state.model)) {
-      device = 'android';
+      device = this.renderAndroid();
+    } else if (['ipad'].includes(this.state.model)) {
+      device = this.renderIPad();
+    } else {
+      device = this.renderIPhone();
     }
 
     return (
@@ -72,13 +86,14 @@ export default class App extends Component {
             <button onClick={() => { this.handleModelClick('lumia920'); }}>lumia920</button>
             <button onClick={() => { this.handleModelClick('htc-one'); }}>htc-one</button>
             <button onClick={() => { this.handleModelClick('nexus5'); }}>nexus5</button>
+            <button onClick={() => { this.handleModelClick('ipad'); }}>iPad</button>
           </div>
           <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center' }}>
             <button onClick={() => { this.handleLandscapeClick(true); }}>Landscape</button>
             <button onClick={() => { this.handleLandscapeClick(false); }}>Portait</button>
           </div>
         </div>
-        {device === 'iphone' ? this.renderIPhone() : this.renderAndroid()}
+        {device}
       </div>
     );
   }
