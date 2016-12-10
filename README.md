@@ -48,6 +48,11 @@ npm install react-devices
 * landscape
 * portrait
 
+### Available Sizes (Only for apple watch)
+
+* 38mm
+* 42mm
+
 ### Some examples
 
 ```js
