@@ -40,7 +40,6 @@
     "autoprefixer": "^6.5.3",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-radio-group": "3.0.1",
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
