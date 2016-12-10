@@ -1,7 +1,7 @@
 import React, {PropTypes, Component} from 'react';
 import { RadioGroup, Radio } from 'react-radio-group';
 import { Dropdown, Card, Header, Segment } from 'semantic-ui-react';
-import { IPhone, Android, IPad, MacBook } from '../src';
+import { IPhone, Android, IPad, MacBook, AppleWatch } from '../src';
 
 export default class App extends Component {
   constructor(props) {
@@ -10,6 +10,7 @@ export default class App extends Component {
     this.state = {
       color: 'black',
       model: "iphone6",
+      size: 'small',
       orientation: 'portrait'
     };
   }
@@ -27,6 +28,11 @@ export default class App extends Component {
   handleOrientationChange = (e, newProps) => {
     e.preventDefault();
     this.setState({ orientation: newProps.value });
+  }
+
+  handleSizeChange = (e, newProps) => {
+    e.preventDefault();
+    this.setState({ size: newProps.value });
   }
 
   renderIPhone() {
@@ -62,6 +68,12 @@ export default class App extends Component {
   renderMac() {
     return (
       <MacBook model={this.state.model} />
+    );
+  }
+
+  renderAppleWatch() {
+    return (
+      <AppleWatch small={this.state.size === 'small'} color={this.state.color}/>
     );
   }
 
@@ -108,6 +120,15 @@ export default class App extends Component {
         ];
         break;
       }
+      case 'appleWatch' : {
+        colorOptions = [
+          { value: 'yellow-gold', text: 'Yellow Gold'},
+          { value: 'rose-gold', text: 'Rose Gold'},
+          { value: 'space-black', text: 'Space Black'},
+          { value: 'stainless-steel', text: 'Stainless Steel'},
+          { value: 'space-gray', text: 'Space Gray'}
+        ];
+      }
       default:
         // Nothing
     }
@@ -124,6 +145,8 @@ export default class App extends Component {
       device = this.renderIPad();
     } else if (['macbook'].includes(this.state.model)) {
       device = this.renderMac();
+    } else if (['appleWatch'].includes(this.state.model)) {
+      device = this.renderAppleWatch();
     } else {
       device = this.renderIPhone();
     }
@@ -148,6 +171,7 @@ export default class App extends Component {
                 {value: 'iphone5s', text: 'iPhone 5s'},
                 {value: 'iphone5c', text: 'iPhone 5c'},
                 {value: 'iphone4s', text: 'iPhone 4s'},
+                {value: 'appleWatch', text: 'Apple Watch'},
                 {value: 's5', text: 'Samsung s5'},
                 {value: 'lumia920', text: 'Lumia 6'},
                 {value: 'htc-one', text: 'HTC-ONE'},
@@ -174,11 +198,24 @@ export default class App extends Component {
               onChange={this.handleOrientationChange}
               placeholder="Select the device orientation"
               value={this.state.orientation}
-              disabled={this.state.model === 'macbook'}
+              disabled={this.state.model === 'macbook' || this.state.model === 'appleWatch'}
               selection
               options={[
                 { value: 'portrait', text: 'Portrait' },
                 { value: 'landscape', text: 'Landscape' },
+              ]}
+            />
+          <Header as="h2">Size (Only for Apple Watch)</Header>
+            <Dropdown
+              fluid
+              onChange={this.handleSizeChange}
+              placeholder="Select the device size"
+              value={this.state.size}
+              disabled={this.state.model !== 'appleWatch'}
+              selection
+              options={[
+                { value: 'small', text: '38mm' },
+                { value: 'normal', text: '42mm' },
               ]}
             />
             </Card.Content>
