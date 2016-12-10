@@ -16,15 +16,17 @@ if (process.env.NODE_ENV === 'development') {
 
 module.exports = {
   context: path.resolve(__dirname, '../../'),
-  // Switch loaders to debug mode (not sure how this helps)
   debug: isDebug,
 
   // Better set this for development, because it creates source maps
   devtool: isDebug ? '#inline-source-map' : false,
-  entry: 'index.js',
+  entry: {
+    index: 'index.js',
+    example: 'examples/index.js'
+  },
   output: {
     path: path.resolve(__dirname, '../../dist'),
-    filename: 'bundle.js',
+    filename: '[name].js',
     publicPath: '/dist/'
   },
   resolve: {
@@ -34,7 +36,8 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    port: 8080
+    port: 8080,
+    'content-base': '../../examples'
   },
   module: {
     loaders: [{
