@@ -1,3 +1,9 @@
-import Android from './android.jsx';
+import Sumsung from './sumsung';
+import HTC from './htc';
+import Nexus from './nexus';
 
-export default Android;
+export default {
+  Sumsung,
+  HTC,
+  Nexus
+};
