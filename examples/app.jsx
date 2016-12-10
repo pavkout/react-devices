@@ -129,7 +129,7 @@ export default class App extends Component {
     }
 
     return (
-      <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center', minHeight: '800' }}>
+      <div style={{ width: '100%', display: 'flex', 'justifyContent': 'center', minHeight: '800px' }}>
         <div style={{height: 'auto', margin: '20px'}}>
         <Card raised>
           <Card.Content>
@@ -167,7 +167,7 @@ export default class App extends Component {
               selection
               options={this.getColorOptions()}
             />
-            
+
             <Header as="h2">Orientation</Header>
             <Dropdown
               fluid
