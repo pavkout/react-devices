@@ -1,6 +1,6 @@
 import React, {PropTypes, Component} from 'react';
 import { RadioGroup, Radio } from 'react-radio-group';
-import { IPhone, Android, IPad, Mac } from 'react-devices';
+import { IPhone, Android, IPad, MacBook } from '../src';
 
 export default class App extends Component {
   constructor(props) {
@@ -57,7 +57,7 @@ export default class App extends Component {
 
   renderMac() {
     return (
-      <Mac model={this.state.model} />
+      <MacBook model={this.state.model} />
     );
   }
 

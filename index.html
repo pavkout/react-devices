@@ -6,14 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>ReFlexible</title>
+  <title>React Devices</title>
   <!-- Bootstrap Core CSS -->
   <!-- Custom CSS -->
   <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body class="hidden">
-  <div id="app"/>
-  <script src="../dist/bundle.js"></script>
+  <style>
+    body, html {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      font-family: 'Raleway', sans-serif;
+    }
 
+    .logo-img-container {
+      width: 100%;
+      text-align: center;
+      background-color: #FCF5EA;
+      color: #E1B251;
+      padding: 20px 0;
+    }
+    .logo-img {
+      max-width: 200px;
+    }
+  </style>
+
+  <div class="logo-img-container">
+    <h1>React Devices</h1>
+    <img src="../assets/logo.png" class="logo-img"/>
+    <p>A curated collection of devices as react components.</p>
+  </div>
+  <div id="app">
+  </div>
+
+  <script src="./dist/example.js"></script>
 </body>
 </html>
