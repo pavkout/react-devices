@@ -24,18 +24,24 @@ npm install react-devices
 * htc-one
 * Macbook
 * iPad Mini
+* Apple Watch
 
 ### Available Colors
 
-* silver
-* black
-* gold
-* white
-* red
-* yellow
-* green
-* blue
-* silver
+* Silver
+* Black
+* Gold
+* White
+* Red
+* Yellow
+* Green
+* Blue
+* Silver
+* Yellow Gold (Only for apple watch)
+* Rose Gold (Only for apple watch)
+* Space Black (Only for apple watch)
+* Stainless Steel (Only for apple watch)
+* Space Gray (Only for apple watch)
 
 ### Available Orientation
 
@@ -46,7 +52,7 @@ npm install react-devices
 
 ```js
 import React, {PropTypes, Component} from 'react';
-import { IPhone, Android, IPad, MacBook } from 'react-devices';
+import { IPhone, Android, IPad, MacBook, AppleWatch } from 'react-devices';
 
 export default class App extends Component {
   constructor(props) {
@@ -71,6 +77,7 @@ export default class App extends Component {
         landscape
       />
       <MacBook model="macbook" />
+      <AppleWatch color="rose-gold" small/>
       </div>
     );
   }
