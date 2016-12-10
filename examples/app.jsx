@@ -1,5 +1,4 @@
 import React, {PropTypes, Component} from 'react';
-import { RadioGroup, Radio } from 'react-radio-group';
 import { Dropdown, Card, Header, Segment } from 'semantic-ui-react';
 import { IPhone, Android, IPad, MacBook, AppleWatch } from '../src';
 
