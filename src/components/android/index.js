@@ -1,9 +1,9 @@
-import Sumsung from './sumsung';
+import Samsung from './samsung';
 import HTC from './htc';
 import Nexus from './nexus';
 
 export default {
-  Sumsung,
+  Samsung,
   HTC,
   Nexus
 };
