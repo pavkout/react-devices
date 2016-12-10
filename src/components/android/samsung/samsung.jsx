@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../../device.post.css';
 
-export default class Sumsung extends Component {
+export default class Samsung extends Component {
   static propTypes = {
     model: PropTypes.oneOf(['s5']),
     color: PropTypes.oneOf(['white', 'black']),

@@ -1,3 +1,3 @@
 import Samsung from './samsung.jsx';
 
-export default Sumsung;
+export default Samsung;
