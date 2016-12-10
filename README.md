@@ -46,7 +46,7 @@ npm install react-devices
 
 ```js
 import React, {PropTypes, Component} from 'react';
-import { IPhone, Android, IPad, Mac } from 'react-devices';
+import { IPhone, Android, IPad, MacBook } from 'react-devices';
 
 export default class App extends Component {
   constructor(props) {
@@ -70,7 +70,7 @@ export default class App extends Component {
         color="silver"
         landscape
       />
-      <Mac model="macbook" />
+      <MacBook model="macbook" />
       </div>
     );
   }
