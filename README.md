@@ -1,19 +1,6 @@
-<style>
-  .logo-img-container {
-    width: 100%;
-    text-align: center;
-    background-color: #FCF5EA;
-    color: #E1B251;
-    padding: 20px 0;
-  }
-  .logo-img {
-    max-width: 200px;
-  }
-</style>
-
-<div class="logo-img-container">
+<div class="logo-img-container" style="width: 100%; text-align: center; background-color: #FCF5EA; color: #E1B251; padding: 20px 0;">
   <h1>React Devices</h1>
-  <img src="./assets/logo.png" class="logo-img"/>
+  <img src="./assets/logo.png" class="logo-img" style="max-width: 200px;"/>
   <p>A curated collection of devices as react components.</p>
 </div>
 
