@@ -31,12 +31,12 @@ export default class HTC extends Component {
     });
 
     return (
-      <div class={classes}>
-        <div class="top-bar"></div>
-        <div class="camera"></div>
-        <div class="sensor"></div>
-        <div class="speaker"></div>
-        <div class="screen">
+      <div className={classes}>
+        <div className="top-bar"></div>
+        <div className="camera"></div>
+        <div className="sensor"></div>
+        <div className="speaker"></div>
+        <div className="screen">
           {this.props.screen}
         </div>
       </div>
