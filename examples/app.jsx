@@ -1,6 +1,9 @@
 import React, {PropTypes, Component} from 'react';
 import { Dropdown, Card, Header, Segment } from 'semantic-ui-react';
-import { IPhone, Android, IPad, MacBook, AppleWatch } from '../src';
+import { IPhone, Android, IPad, MacBook, AppleWatch, WindowsPhone } from '../src';
+
+const { Samsung, HTC, Nexus } = Android;
+const { Lumia } = WindowsPhone;
 
 export default class App extends Component {
   constructor(props) {
@@ -45,8 +48,43 @@ export default class App extends Component {
   }
 
   renderAndroid() {
+    switch(this.state.model) {
+      case 's5': {
+        return (
+          <Samsung
+            model={this.state.model}
+            color={this.state.color}
+            landscape={this.state.orientation === 'landscape'}
+          />
+        );
+        break;
+      }
+      case 'htc-one': {
+        return (
+          <HTC
+            model={this.state.model}
+            color={this.state.color}
+            landscape={this.state.orientation === 'landscape'}
+          />
+        );
+        break;
+      }
+      case 'nexus5': {
+        return (
+          <Nexus
+            model={this.state.model}
+            color={this.state.color}
+            landscape={this.state.orientation === 'landscape'}
+          />
+        );
+        break;
+      }
+    }
+  }
+
+  renderIPad() {
     return (
-      <Android
+      <IPad
         model={this.state.model}
         color={this.state.color}
         landscape={this.state.orientation === 'landscape'}
@@ -54,9 +92,9 @@ export default class App extends Component {
     );
   }
 
-  renderIPad() {
+  renderLumia() {
     return (
-      <IPad
+      <Lumia
         model={this.state.model}
         color={this.state.color}
         landscape={this.state.orientation === 'landscape'}
@@ -138,7 +176,7 @@ export default class App extends Component {
   render() {
     let device;
 
-    if (['s5', 'lumia920', 'htc-one', 'nexus5'].includes(this.state.model)) {
+    if (['s5', 'htc-one', 'nexus5'].includes(this.state.model)) {
       device = this.renderAndroid();
     } else if (['ipad'].includes(this.state.model)) {
       device = this.renderIPad();
@@ -146,6 +184,8 @@ export default class App extends Component {
       device = this.renderMac();
     } else if (['appleWatch'].includes(this.state.model)) {
       device = this.renderAppleWatch();
+    } else if (['lumia920'].includes(this.state.model)) {
+      device = this.renderLumia();
     } else {
       device = this.renderIPhone();
     }
