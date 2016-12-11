@@ -38,12 +38,12 @@ export default class Lumia extends Component {
     });
 
     return (
-      <div class={classes}>
-        <div class="top-bar"></div>
-        <div class="volume"></div>
-        <div class="camera"></div>
-        <div class="speaker"></div>
-        <div class="screen">
+      <div className={classes}>
+        <div className="top-bar"></div>
+        <div className="volume"></div>
+        <div className="camera"></div>
+        <div className="speaker"></div>
+        <div className="screen">
           {this.props.screen}
         </div>
       </div>
