@@ -2,6 +2,7 @@ import React, {PropTypes, Component} from 'react';
 import { Dropdown, Card, Header, Segment } from 'semantic-ui-react';
 import { IPhone, Android, IPad, MacBook, AppleWatch, WindowsPhone } from '../src';
 
+const { IPhone1, IPhone4s } = IPhone;
 const { Samsung, HTC, Nexus } = Android;
 const { Lumia } = WindowsPhone;
 
@@ -39,10 +40,18 @@ export default class App extends Component {
 
   renderIPhone() {
     return (
-      <IPhone
+      <IPhone1
         model={this.state.model}
         color={this.state.color}
         landscape={this.state.orientation === 'landscape'}
+      />
+    );
+  }
+
+  renderIPhone4s() {
+    return (
+      <IPhone4s
+        color={this.state.color}
       />
     );
   }
@@ -186,6 +195,8 @@ export default class App extends Component {
       device = this.renderAppleWatch();
     } else if (['lumia920'].includes(this.state.model)) {
       device = this.renderLumia();
+    } else if (['iphone4s'].includes(this.state.model)) {
+      device = this.renderIPhone4s();
     } else {
       device = this.renderIPhone();
     }
@@ -261,7 +272,9 @@ export default class App extends Component {
         </Card>
         </div>
         <div style={{ width: '90%', display: 'flex', 'justifyContent': 'center', alignItems: 'center'}}>
-          {device}
+          <div style={{ width: 'inherit', height: '500px', 'margin-left': '25%', 'margin-right': '25%' }}>
+            {device}
+          </div>
         </div>
       </div>
     );
