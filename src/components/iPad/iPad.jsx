@@ -2,27 +2,9 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../device.post.css';
 
-export default class IPad extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['ipad']),
-    color: PropTypes.oneOf(['black', 'silver']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 'ipad',
-    color: 'silver',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class IPad extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
@@ -50,4 +32,19 @@ export default class IPad extends Component {
       </div>
     );
   }
+}
+
+IPad.propTypes = {
+  model: oneOf(['ipad']),
+  color: oneOf(['black', 'silver']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+IPad.defaultProps = {
+  model: 'ipad',
+  color: 'silver',
+  landscape: false
+}
+
+export default IPad;
