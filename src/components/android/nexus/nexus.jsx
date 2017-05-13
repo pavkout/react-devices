@@ -2,25 +2,9 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../../device.post.css';
 
-export default class Nexus extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['nexus5']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 'nexus5',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class Nexus extends Component {
   render() {
     const { model, landscape } = this.props;
 
@@ -42,4 +26,17 @@ export default class Nexus extends Component {
       </div>
     );
   }
+}
+
+Nexus.propTypes = {
+  model: oneOf(['nexus5']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+Nexus.defaultProps = {
+  model: 'nexus5',
+  landscape: false
+};
+
+export default Nexus;

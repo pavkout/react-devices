@@ -2,27 +2,9 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../../device.post.css';
 
-export default class Samsung extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['s5']),
-    color: PropTypes.oneOf(['white', 'black']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 's5',
-    color: 'white',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class Samsung extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
@@ -48,4 +30,19 @@ export default class Samsung extends Component {
       </div>
     );
   }
+}
+
+Samsung.propTypes = {
+  model: oneOf(['s5']),
+  color: oneOf(['white', 'black']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+Samsung.propTypes = {
+  model: 's5',
+  color: 'white',
+  landscape: false
+};
+
+export default Samsung;

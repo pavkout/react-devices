@@ -2,27 +2,9 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../device.post.css';
 
-export default class Android extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['nexus5', 'lumia920', 's5', 'htc-one']),
-    color: PropTypes.oneOf(['white', 'black', 'yellow', 'red', 'blue']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 's5',
-    color: 'white',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class Android extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
@@ -56,4 +38,19 @@ export default class Android extends Component {
       </div>
     );
   }
+}
+
+Android.propTypes = {
+  model: oneOf(['nexus5', 'lumia920', 's5', 'htc-one']),
+  color: oneOf(['white', 'black', 'yellow', 'red', 'blue']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+Android.defaultProps = {
+  model: 's5',
+  color: 'white',
+  landscape: false
+};
+
+export default Android;
