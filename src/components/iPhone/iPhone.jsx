@@ -1,41 +1,19 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../device.post.css';
 
-export default class iPhone extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['iphone5c', 'iphone5s', 'iphone6plus', 'iphone6', 'iphone4s']),
-    color: PropTypes.oneOf(['silver', 'black', 'gold', 'white', 'red', 'yellow', 'green', 'blue']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 'iphone6',
-    color: 'silver',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class iPhone extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
     const classes = classNames({
       'marvel-device': true,
-      iphone6: model === 'iphone6',
-      iphone6plus: model === 'iphone6plus',
-      iphone5s: model === 'iphone5s',
-      iphone5c: model === 'iphone5c',
-      iphone4s: model === 'iphone4s',
-      black: color === 'black',
-      silver: color === 'silver',
-      gold: color === 'gold',
+      [model]: model,
+      [color]: color,
       white: color === 'white' && model === 'iphone5c',
       red: color === 'red' && model === 'iphone5c',
       yellow: color === 'yellow' && model === 'iphone5c',
@@ -60,4 +38,19 @@ export default class iPhone extends Component {
       </div>
     );
   }
+}
+
+iPhone.propTypes = {
+  model: oneOf(['iphone5c', 'iphone5s', 'iphone6plus', 'iphone6', 'iphone4s']),
+  color: oneOf(['silver', 'black', 'gold', 'white', 'red', 'yellow', 'green', 'blue']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+iPhone.defaultProps = {
+  model: 'iphone6',
+  color: 'silver',
+  landscape: false
+};
+
+export default iPhone;

@@ -1,26 +1,12 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../applewatch.min.css';
 
-export default class AppleWatch extends Component {
-  static propTypes = {
-    color: PropTypes.oneOf(['yellow-gold', 'rose-gold', 'space-black', 'stainless-steel', 'space-gray']),
-    small: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    color: 'space-gray',
-    small: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class AppleWatch extends Component {
   render() {
     const { color, small } = this.props;
 
@@ -38,4 +24,17 @@ export default class AppleWatch extends Component {
       </div>
     );
   }
+}
+
+AppleWatch.propTypes = {
+  color: oneOf(['yellow-gold', 'rose-gold', 'space-black', 'stainless-steel', 'space-gray']),
+  small: bool,
+  screen: oneOfType([element,array])
 };
+
+AppleWatch.defaultProps = {
+  color: 'space-gray',
+  small: false
+};
+
+export default AppleWatch;

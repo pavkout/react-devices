@@ -1,5 +1,7 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
@@ -10,7 +12,7 @@ class HTC extends Component {
 
     const classes = classNames({
       'marvel-device': true,
-      'htc-one': model === 'htc-one',
+      [model]: model,
       landscape: landscape
     });
 

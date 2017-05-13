@@ -31,7 +31,8 @@
   "homepage": "https://github.com/pavkout/react-devices#readme",
   "dependencies": {
     "classnames": "^2.2.5",
-    "lodash": "^4.16.4"
+    "lodash": "^4.16.4",
+    "prop-types": "^15.5.10"
   },
   "peerDependencies": {
     "react": ">=15.0.0"

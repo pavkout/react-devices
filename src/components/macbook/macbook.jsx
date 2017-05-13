@@ -1,24 +1,12 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../device.post.css';
 
-export default class Mac extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['macbook']),
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 'macbook',
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class Mac extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
@@ -36,4 +24,15 @@ export default class Mac extends Component {
     </div>
     );
   }
+}
+
+Mac.propTypes = {
+  model: oneOf(['macbook']),
+  screen: oneOfType([element,array])
 };
+
+Mac.defaultProps = {
+  model: 'macbook'
+};
+
+export default Mac;
