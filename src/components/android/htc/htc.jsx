@@ -1,32 +1,18 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../../device.post.css';
 
-export default class HTC extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['htc-one']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 'htc-one',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class HTC extends Component {
   render() {
     const { model, landscape } = this.props;
 
     const classes = classNames({
       'marvel-device': true,
-      'htc-one': model === 'htc-one',
+      [model]: model,
       landscape: landscape
     });
 
@@ -42,4 +28,17 @@ export default class HTC extends Component {
       </div>
     );
   }
+}
+
+HTC.propTypes = {
+  model: oneOf(['htc-one']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+HTC.defaultProps = {
+  model: 'htc-one',
+  landscape: false
+};
+
+export default HTC;
