@@ -2,27 +2,9 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../device.post.css';
 
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
+
 export default class iPhone extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['iphone5c', 'iphone5s', 'iphone6plus', 'iphone6', 'iphone4s']),
-    color: PropTypes.oneOf(['silver', 'black', 'gold', 'white', 'red', 'yellow', 'green', 'blue']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
-
-  static defaultProps = {
-    model: 'iphone6',
-    color: 'silver',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { model, color, landscape } = this.props;
 
@@ -60,4 +42,19 @@ export default class iPhone extends Component {
       </div>
     );
   }
+}
+
+iPhone.propTypes = {
+  model: oneOf(['iphone5c', 'iphone5s', 'iphone6plus', 'iphone6', 'iphone4s']),
+  color: oneOf(['silver', 'black', 'gold', 'white', 'red', 'yellow', 'green', 'blue']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+iPhone.defaultProps = {
+  model: 'iphone6',
+  color: 'silver',
+  landscape: false
+};
+
+export default iPhone;
