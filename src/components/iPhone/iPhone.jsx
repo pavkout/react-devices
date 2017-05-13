@@ -4,7 +4,7 @@ import '../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-export default class iPhone extends Component {
+class iPhone extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
