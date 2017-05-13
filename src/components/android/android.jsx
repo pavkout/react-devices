@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
@@ -11,10 +12,7 @@ class Android extends Component {
 
     const classes = classNames({
       'marvel-device': true,
-      nexus5: model === 'nexus5',
-      lumia920: model === 'lumia920',
-      s5: model === 's5',
-      'htc-one': model === 'htc-one',
+      [model]: model,
       black: color === 'black' && ( model === 'lumia920' || model === 's5'),
       white: color === 'white' && ( model === 'lumia920' || model === 's5'),
       yellow: color === 'yellow' && model === 'lumia920',

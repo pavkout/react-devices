@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
@@ -12,8 +13,7 @@ class IPad extends Component {
     const classes = classNames({
       'marvel-device': true,
       ipad: model === 'ipad',
-      black: color === 'black',
-      silver: color === 'silver',
+      [color]: color,
       landscape: landscape
     });
 

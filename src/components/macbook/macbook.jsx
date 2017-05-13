@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../device.post.css';
 
 const { oneOf, oneOfType, element, array } = PropTypes;

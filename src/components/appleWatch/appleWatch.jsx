@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../applewatch.min.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;

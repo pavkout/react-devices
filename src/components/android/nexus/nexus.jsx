@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
@@ -11,7 +12,7 @@ class Nexus extends Component {
 
     const classes = classNames({
       'marvel-device': true,
-      nexus5: model === 'nexus5',
+      [model]: model,
       landscape: landscape
     });
 

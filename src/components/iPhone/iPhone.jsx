@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
@@ -11,14 +12,8 @@ class iPhone extends Component {
 
     const classes = classNames({
       'marvel-device': true,
-      iphone6: model === 'iphone6',
-      iphone6plus: model === 'iphone6plus',
-      iphone5s: model === 'iphone5s',
-      iphone5c: model === 'iphone5c',
-      iphone4s: model === 'iphone4s',
-      black: color === 'black',
-      silver: color === 'silver',
-      gold: color === 'gold',
+      [model]: model,
+      [color]: color,
       white: color === 'white' && model === 'iphone5c',
       red: color === 'red' && model === 'iphone5c',
       yellow: color === 'yellow' && model === 'iphone5c',

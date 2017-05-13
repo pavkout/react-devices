@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import colors from '../../../constants';
 
 import '../../../device.post.css';
@@ -13,7 +14,7 @@ class Samsung extends Component {
 
     const classes = classNames({
       'marvel-device': true,
-      s5: model === 's5',
+      [model]: model,
       [color]: color,
       landscape: landscape
     });

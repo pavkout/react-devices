@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import '../../../device.post.css';
 
 const { oneOf, bool, oneOfType, element, array } = PropTypes;
@@ -11,12 +12,8 @@ class Lumia extends Component {
 
     const classes = classNames({
       'marvel-device': true,
-      lumia920: model === 'lumia920',
-      black: color === 'black',
-      white: color === 'white',
-      yellow: color === 'yellow',
-      red: color === 'red',
-      blue: color === 'blue',
+      [model]: model,
+      [color]: color,
       landscape: landscape
     });
 
