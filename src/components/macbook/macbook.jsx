@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../device.post.css';
 
-const { oneOf, bool, oneOfType, element, array } = PropTypes;
+const { oneOf, oneOfType, element, array } = PropTypes;
 
 class Mac extends Component {
   render() {

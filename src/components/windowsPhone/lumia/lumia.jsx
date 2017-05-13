@@ -2,27 +2,9 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 import '../../../device.post.css';
 
-export default class Lumia extends Component {
-  static propTypes = {
-    model: PropTypes.oneOf(['lumia920']),
-    color: PropTypes.oneOf(['black', 'white', 'yellow', 'red', 'blue']),
-    landscape: PropTypes.bool,
-    screen: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.array
-    ])
-  };
+const { oneOf, bool, oneOfType, element, array } = PropTypes;
 
-  static defaultProps = {
-    model: 'lumia920',
-    color: 'yellow',
-    landscape: false
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
+class Lumia extends Component {
   render() {
     const { model, color, landscape } = this.props;
 
@@ -49,4 +31,19 @@ export default class Lumia extends Component {
       </div>
     );
   }
+}
+
+Lumia.propTypes = {
+  model: oneOf(['lumia920']),
+  color: oneOf(['black', 'white', 'yellow', 'red', 'blue']),
+  landscape: bool,
+  screen: oneOfType([element,array])
 };
+
+Lumia.defaultProps = {
+  model: 'lumia920',
+  color: 'yellow',
+  landscape: false
+};
+
+export default Lumia;
