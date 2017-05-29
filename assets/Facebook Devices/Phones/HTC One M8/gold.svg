@@ -1,0 +1,581 @@
+
+<svg width="1228px" height="2559px" viewBox="0 0 1228 2559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M574.852196,37 C892.334297,37 1149.70439,27.8103994 1149.70439,16.4744526 C1149.70439,5.13850572 797.186888,8.87791027e-16 574.852196,0 C352.517504,-8.76261272e-16 0,5.13850572 0,16.4744526 C0,27.8103994 257.370095,37 574.852196,37 Z" id="path-1"></path>
+        <filter x="-3.3%" y="-98.6%" width="106.7%" height="308.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M575,30.8512397 C877.717801,30.8512397 1123.11907,23.7501847 1123.11907,14.9905894 C1123.11907,6.23099409 786.99516,2.26033058 575,2.26033058 C363.00484,2.26033058 26.880935,6.23099409 26.880935,14.9905894 C26.880935,23.7501847 272.282199,30.8512397 575,30.8512397 Z" id="path-3"></path>
+        <filter x="-1.6%" y="-54.2%" width="103.2%" height="222.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M575,22.957438 C856.840711,22.957438 1085.31775,19.1980559 1085.31775,14.5606232 C1085.31775,9.92319036 772.374804,7.82107438 575,7.82107438 C377.625196,7.82107438 64.6822498,9.92319036 64.6822498,14.5606232 C64.6822498,19.1980559 293.159289,22.957438 575,22.957438 Z" id="path-5"></path>
+        <filter x="-1.1%" y="-62.8%" width="102.3%" height="252.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="42.2618628%" x2="0%" y2="42.2618622%" id="linearGradient-7">
+            <stop stop-color="#92825B" offset="0%"></stop>
+            <stop stop-color="#F3DFBE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <path d="M935.852752,2510 L1019.99118,2510 C1132.65783,2510 1224,2418.66273 1224,2305.99249 L1224,204.007512 C1224,91.3273695 1132.66214,0 1019.99118,0 L204.008825,0 C91.3421747,0 0,91.3372744 0,204.007512 L0,2305.99249 C0,2418.67263 91.337862,2510 204.008825,2510 L882.147248,2510 C887.5073,2506.41319 897.525627,2504 909,2504 C920.474373,2504 930.4927,2506.41319 935.852747,2510 Z" id="path-9"></path>
+        <filter x="-1.0%" y="-0.5%" width="102.0%" height="101.7%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-21" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.278431373   0 0 0 0 0.192156863   0 0 0 0 0.0784313725  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="1224" height="2510" rx="204"></rect>
+        <linearGradient x1="141.324816%" y1="-16.2715226%" x2="0%" y2="123.186748%" id="linearGradient-13">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E7D3B2" stop-opacity="0" offset="37.8473692%"></stop>
+            <stop stop-color="#130A06" offset="45.4461985%"></stop>
+            <stop stop-color="#130B06" offset="63.4304053%"></stop>
+            <stop stop-color="#F0DBB9" stop-opacity="0" offset="69.5061022%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="141.324816%" y1="-16.2715226%" x2="0%" y2="123.186748%" id="linearGradient-14">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#9C8B65" stop-opacity="0" offset="33.9561686%"></stop>
+            <stop stop-color="#130A06" offset="45.4461985%"></stop>
+            <stop stop-color="#130B06" offset="63.4304053%"></stop>
+            <stop stop-color="#B99F66" stop-opacity="0.549649004" offset="82.3509403%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="141.901882%" y1="-17.0155417%" x2="-21.6201237%" y2="95.9536201%" id="linearGradient-15">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F6F5F4" stop-opacity="0" offset="1.93147194%"></stop>
+            <stop stop-color="#463116" stop-opacity="0" offset="39.2577645%"></stop>
+            <stop stop-color="#130A06" offset="45.4461985%"></stop>
+            <stop stop-color="#130B06" offset="63.4304053%"></stop>
+            <stop stop-color="#B99F66" stop-opacity="0" offset="82.3509403%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.5574181%" y1="56.9045424%" x2="100%" y2="56.904543%" id="linearGradient-16">
+            <stop stop-color="#FEF7ED" offset="0%"></stop>
+            <stop stop-color="#B9AD9C" offset="53.5267964%"></stop>
+            <stop stop-color="#766A5A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="52.539891%" x2="0%" y2="52.5398912%" id="linearGradient-17">
+            <stop stop-color="#CBB798" offset="0%"></stop>
+            <stop stop-color="#EFDFC6" offset="32.1382444%"></stop>
+            <stop stop-color="#CBBA9E" offset="49.7255618%"></stop>
+            <stop stop-color="#B1976A" offset="78.5278129%"></stop>
+            <stop stop-color="#BDA478" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-18" x="0" y="0" width="1176" height="2460" rx="180"></rect>
+        <linearGradient x1="1.14394709%" y1="100%" x2="97.9609547%" y2="100%" id="linearGradient-20">
+            <stop stop-color="#F2F0ED" offset="0%"></stop>
+            <stop stop-color="#CCC1B2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="6.75525524%" x2="50%" y2="101.024898%" id="linearGradient-21">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#4D4D4D" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-22" x="0" y="168" width="1176" height="2136"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-23">
+            <stop stop-color="#282422" offset="0%"></stop>
+            <stop stop-color="#000000" offset="25.7859805%"></stop>
+            <stop stop-color="#000000" offset="86.628255%"></stop>
+            <stop stop-color="#271F1B" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-24" x="0" y="0" width="1176" height="2460" rx="180"></rect>
+        <path d="M7,187 L7,187 L7,2287 C7,2386.41935 87.5929583,2467 187,2467 L1003,2467 C1102.41479,2467 1183,2386.4104 1183,2287 L1183,187 C1183,87.5806521 1102.40704,7 1003,7 L187,7 C87.5852142,7 7,87.5895957 7,187 L7,187 Z M0,187 L0,187 C0,83.7209091 83.7219144,0 187,0 L1003,0 C1106.276,0 1190,83.7176286 1190,187 L1190,2287 C1190,2390.27909 1106.27809,2474 1003,2474 L187,2474 C83.7239951,2474 0,2390.28237 0,2287 L0,187 Z" id="path-26"></path>
+        <ellipse id="path-28" cx="40.02" cy="40.0168919" rx="40.02" ry="40.0168919"></ellipse>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-30">
+            <stop stop-color="#393939" offset="0%"></stop>
+            <stop stop-color="#2F2F2F" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-31" cx="39.94" cy="39.9371311" rx="26.5" ry="26.4979419"></ellipse>
+        <circle id="path-32" cx="40.5" cy="39.5" r="3.5"></circle>
+        <linearGradient x1="137.973589%" y1="70.2732486%" x2="-18.2354629%" y2="0%" id="linearGradient-33">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-34">
+            <stop stop-color="#C0A987" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M446,615 L450,615 C452.209139,615 454,616.781951 454,618.991515 L454,1042.00848 C454,1044.21294 452.204644,1046 450,1046 L446,1046 L446,615 Z" id="path-35"></path>
+        <filter x="-25.0%" y="-0.5%" width="150.0%" height="100.9%" filterUnits="objectBoundingBox" id="filter-36">
+            <feOffset dx="-4" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.392156863   0 0 0 0 0.31372549   0 0 0 0 0.219607843  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="-2" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.184313725   0 0 0 0 0.121568627   0 0 0 0 0.062745098  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="HTC-One-M8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HTC-One-M8-Gold">
+            <g id="Shadow" transform="translate(37.000000, 2495.000000)" fill="black" fill-opacity="1">
+                <g id="Outer-Shadow">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="Middle-Shadow">
+                    <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                </g>
+                <g id="Inner-Shadow">
+                    <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+            <g id="Device">
+                <g id="Outside-bezel" transform="translate(0.000000, 3.000000)">
+                    <g id="outside-bezel">
+                        <use fill="url(#linearGradient-7)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <use fill-opacity="0.700000048" fill="url(#linearGradient-8)" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-9"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    </g>
+                    <g id="outside-bezel-copy-+-reflex">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="reflex-and-antenna-cut" mask="url(#mask-12)">
+                            <g transform="translate(-21.000000, -4.000000)">
+                                <polygon id="Path-31" fill="url(#linearGradient-13)" style="mix-blend-mode: hue;" points="81.6705307 128.141917 0.719795372 92.6318259 91.0060808 1.07246637 123.815003 83.600416"></polygon>
+                                <polygon id="Path-31-Copy" fill="url(#linearGradient-14)" style="mix-blend-mode: multiply;" transform="translate(1174.267399, 72.607192) scale(-1, 1) rotate(-9.000000) translate(-1174.267399, -72.607192) " points="1193.67053 136.141917 1112.7198 100.631826 1203.00608 9.07246637 1235.815 91.600416"></polygon>
+                                <polygon id="Path-31-Copy-2" fill="url(#linearGradient-14)" style="mix-blend-mode: multiply;" transform="translate(1188.267399, 2452.607192) scale(-1, 1) rotate(-59.000000) translate(-1188.267399, -2452.607192) " points="1207.67053 2516.14192 1126.7198 2480.63183 1217.00608 2389.07247 1249.815 2471.60042"></polygon>
+                                <polygon id="Path-31-Copy-3" fill="url(#linearGradient-15)" style="mix-blend-mode: multiply;" transform="translate(85.267399, 2443.607192) scale(-1, 1) rotate(-201.000000) translate(-85.267399, -2443.607192) " points="104.670531 2507.14192 23.7197954 2471.63183 114.006081 2380.07247 146.815003 2462.60042"></polygon>
+                                <rect id="top-left-cut" fill="#333331" x="14" y="195" width="31" height="28"></rect>
+                                <rect id="top-right-cut" fill="#333331" x="1214" y="195" width="31" height="28"></rect>
+                                <rect id="bottom-right-cut" fill="#333331" x="1214" y="2307" width="31" height="28"></rect>
+                                <rect id="botom-left-cut" fill="#373639" x="24" y="2307" width="31" height="28"></rect>
+                            </g>
+                        </g>
+                        <path d="M936.726211,2507 C930.542304,2503.24187 920.241735,2501 909,2501 C897.758264,2501 887.457695,2503.24187 881.273789,2507 L204.008825,2507 C92.9912684,2507 3,2417.01233 3,2305.99249 L3,204.007512 C3,92.9956322 92.9975253,3 204.008825,3 L1019.99118,3 C1131.00873,3 1221,92.9876715 1221,204.007512 L1221,2305.99249 C1221,2417.00437 1131.00247,2507 1019.99118,2507 L936.726211,2507 Z" id="border-and-shadow" stroke="#322B1F" stroke-width="6" mask="url(#mask-12)"></path>
+                    </g>
+                </g>
+                <g id="body-+-front-glass" transform="translate(24.000000, 27.000000)">
+                    <mask id="mask-19" fill="white">
+                        <use xlink:href="#path-18"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="url(#linearGradient-16)" fill-rule="evenodd" xlink:href="#path-18"></use>
+                        <rect stroke="url(#linearGradient-17)" stroke-width="7" x="-3.5" y="-3.5" width="1183" height="2467" rx="180"></rect>
+                    </g>
+                    <rect id="bottomcut" fill="url(#linearGradient-20)" mask="url(#mask-19)" x="9" y="2304" width="1167" height="3"></rect>
+                    <g id="front-glass" mask="url(#mask-19)">
+                        <use fill="#272727" xlink:href="#path-22"></use>
+                        <use fill="url(#linearGradient-21)" style="mix-blend-mode: overlay;" xlink:href="#path-22"></use>
+                    </g>
+                    <mask id="mask-25" fill="white">
+                        <use xlink:href="#path-24"></use>
+                    </mask>
+                    <rect stroke="url(#linearGradient-23)" stroke-width="6" x="3" y="3" width="1170" height="2454" rx="180"></rect>
+                    <rect id="topcut" fill="#1F1C1B" mask="url(#mask-25)" x="5" y="168" width="1166" height="5"></rect>
+                    <path d="M658.21177,2199.64974 C649.529398,2199.59303 641.306507,2199.52324 639.013452,2199.72826 C634.375343,2200.13395 631.276035,2203.18748 630.916262,2207.68054 C630.673525,2210.62939 630.673525,2213.07222 630.903298,2215.39727 C631.323758,2219.77255 634.960563,2223.93845 639.01349,2224.13911 C640.465612,2224.21763 644.349492,2224.2089 651.384677,2224.17836 L671.857393,2224.13911 L671.857393,2232.68465 C671.857393,2232.68465 655.550315,2232.7021 650.64779,2232.7239 C644.067734,2232.75444 640.756033,2232.75881 638.658043,2232.68465 C634.041613,2232.5058 630.175074,2230.85253 627.171136,2227.78154 C624.323242,2224.88068 622.624045,2220.26548 622.372632,2215.59357 C622.22959,2213.07222 622.181918,2209.77876 622.372632,2207.82014 C622.845116,2202.79489 624.461958,2198.85146 627.171136,2196.09019 C630.066702,2193.1239 634.475077,2191.24379 638.662381,2191.18708 C642.099782,2191.14346 671.857393,2191.18708 671.857393,2191.18708 L671.857393,2199.72826 C671.857393,2199.72826 662.819573,2199.69336 658.211808,2199.64974 L658.21177,2199.64974 Z M565.791959,2231.89122 L565.791959,2223.3544 L585.991594,2223.3544 L585.991594,2191 L594.517921,2191 L594.517921,2223.3544 L614.717543,2223.3544 L614.717543,2231.89122 L565.791959,2231.89122 Z M556.936202,2216.04342 C556.875488,2220.64117 555.26301,2224.58459 552.13771,2227.77336 C548.878019,2231.11044 543.906142,2232.49762 540.650791,2232.6721 C537.820238,2232.83351 526.667099,2232.78116 524.048953,2232.6721 C520.360137,2232.51507 517.672626,2231.40707 516.324539,2230.39504 C516.311574,2230.38626 516.298482,2230.39065 516.298482,2230.41249 L516.298482,2245.94626 L507.767829,2245.94626 L507.767829,2191.14837 L516.285479,2191.14837 C516.285479,2191.14837 516.116432,2213.57878 516.307172,2216.02161 C516.645265,2220.36199 519.917958,2223.77323 524.09226,2224.13965 C527.438631,2224.42756 537.482106,2224.34904 540.633411,2224.13526 C544.959431,2223.83427 548.154096,2220.43176 548.40551,2215.84709 C548.487915,2214.15892 548.401659,2191.14834 548.401659,2191.14834 L556.936651,2191.14834 C556.936651,2191.14834 556.958343,2214.07168 556.936651,2216.04339 L556.936202,2216.04342 Z" id="logo" fill="#7B7B7B" mask="url(#mask-25)" transform="translate(589.812611, 2218.473132) scale(1, -1) translate(-589.812611, -2218.473132) "></path>
+                </g>
+                <g id="bottom-microphone" transform="translate(274.000000, 2375.000000)" fill="#000000">
+                    <ellipse id="Oval-153" cx="518.52" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-152" cx="504.6" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-151" cx="490.68" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-150" cx="476.76" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-149" cx="462.84" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-148" cx="448.92" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-147" cx="435" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-146" cx="421.08" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-145" cx="407.16" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-144" cx="393.24" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-143" cx="379.32" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-142" cx="365.4" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-141" cx="351.48" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-140" cx="337.56" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-139" cx="323.64" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-138" cx="309.72" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-137" cx="295.8" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-136" cx="281.88" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-135" cx="267.96" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-134" cx="254.04" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-133" cx="240.12" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-132" cx="226.2" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-131" cx="212.28" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-130" cx="198.36" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-129" cx="184.44" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-128" cx="170.52" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-127" cx="156.6" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-126" cx="142.68" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-125" cx="128.76" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-124" cx="114.84" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-123" cx="100.92" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-122" cx="87" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-121" cx="73.08" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-120" cx="59.16" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-119" cx="45.24" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-118" cx="31.32" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-117" cx="17.4" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-116" cx="3.48" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-115" cx="518.52" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-114" cx="504.6" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-113" cx="490.68" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-112" cx="476.76" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-111" cx="462.84" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-110" cx="448.92" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-109" cx="435" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-108" cx="421.08" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-107" cx="407.16" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-106" cx="393.24" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-105" cx="379.32" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-104" cx="365.4" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-103" cx="351.48" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-102" cx="337.56" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-101" cx="323.64" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-100" cx="309.72" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-99" cx="295.8" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-98" cx="281.88" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-97" cx="267.96" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-96" cx="254.04" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-95" cx="240.12" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-94" cx="226.2" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-93" cx="212.28" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-92" cx="198.36" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-91" cx="184.44" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-90" cx="170.52" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-89" cx="156.6" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-88" cx="142.68" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-87" cx="128.76" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-86" cx="114.84" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-85" cx="100.92" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-84" cx="87" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-83" cx="73.08" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-82" cx="59.16" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-81" cx="45.24" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-80" cx="31.32" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-79" cx="17.4" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-78" cx="3.48" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-77" cx="518.52" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-76" cx="504.6" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-75" cx="490.68" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-74" cx="476.76" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-73" cx="462.84" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-72" cx="448.92" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-71" cx="435" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-70" cx="421.08" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-69" cx="407.16" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-68" cx="393.24" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-67" cx="379.32" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-66" cx="365.4" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-65" cx="351.48" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-64" cx="337.56" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-63" cx="323.64" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-62" cx="309.72" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-61" cx="295.8" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-60" cx="281.88" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-59" cx="267.96" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-58" cx="254.04" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-57" cx="240.12" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-56" cx="226.2" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-55" cx="212.28" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-54" cx="198.36" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-53" cx="184.44" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-52" cx="170.52" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-51" cx="156.6" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-50" cx="142.68" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-49" cx="128.76" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-48" cx="114.84" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-47" cx="100.92" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-46" cx="87" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-45" cx="73.08" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-44" cx="59.16" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-43" cx="45.24" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-42" cx="31.32" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-41" cx="17.4" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-40" cx="3.48" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-39" cx="518.52" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-38" cx="504.6" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-37" cx="490.68" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-36" cx="476.76" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-35" cx="462.84" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-34" cx="448.92" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-33" cx="435" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-32" cx="421.08" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-31" cx="407.16" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-30" cx="393.24" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-29" cx="379.32" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-198" cx="671.64" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-197" cx="657.72" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-196" cx="643.8" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-195" cx="629.88" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-194" cx="615.96" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-193" cx="602.04" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-192" cx="588.12" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-191" cx="574.2" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-190" cx="560.28" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-189" cx="546.36" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-188" cx="532.44" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-187" cx="671.64" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-186" cx="657.72" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-185" cx="643.8" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-184" cx="629.88" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-183" cx="615.96" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-182" cx="602.04" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-181" cx="588.12" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-180" cx="574.2" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-179" cx="560.28" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-178" cx="546.36" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-177" cx="532.44" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-176" cx="671.64" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-175" cx="657.72" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-174" cx="643.8" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-173" cx="629.88" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-172" cx="615.96" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-171" cx="602.04" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-170" cx="588.12" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-169" cx="574.2" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-168" cx="560.28" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-167" cx="546.36" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-166" cx="532.44" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-165" cx="671.64" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-164" cx="657.72" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-163" cx="643.8" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-162" cx="629.88" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-161" cx="615.96" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-160" cx="602.04" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-159" cx="588.12" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-158" cx="574.2" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-157" cx="560.28" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-156" cx="546.36" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-155" cx="532.44" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-28" cx="365.4" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-27" cx="351.48" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-26" cx="337.56" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-25" cx="323.64" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-24" cx="309.72" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-23" cx="295.8" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-22" cx="281.88" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-21" cx="267.96" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-20" cx="254.04" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-19" cx="240.12" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-18" cx="226.2" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-17" cx="212.28" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-16" cx="198.36" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-15" cx="184.44" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-14" cx="170.52" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-13" cx="156.6" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-12" cx="142.68" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-11" cx="128.76" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-10" cx="114.84" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-9" cx="100.92" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-8" cx="87" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-7" cx="73.08" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-6" cx="59.16" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-5" cx="45.24" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-4" cx="31.32" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-3" cx="17.4" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    <ellipse id="Oval-154" cx="3.48" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                </g>
+                <g id="Camera-and-top-microphone" transform="translate(17.000000, 20.000000)">
+                    <g id="Shape-+-Rectangle-17">
+                        <mask id="mask-27" fill="white">
+                            <use xlink:href="#path-26"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-17)" fill-rule="nonzero" xlink:href="#path-26"></use>
+                        <rect id="Rectangle-17" fill="#575755" mask="url(#mask-27)" x="-2" y="174" width="14" height="28"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#575755" mask="url(#mask-27)" x="1181" y="174" width="14" height="28"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#575755" mask="url(#mask-27)" x="1176" y="2286" width="19" height="28"></rect>
+                        <rect id="Rectangle-17-Copy-3" fill="#575755" mask="url(#mask-27)" x="-6" y="2286" width="32" height="28"></rect>
+                    </g>
+                    <g id="Top-Grid" transform="translate(250.000000, 83.000000)" fill="#000000">
+                        <ellipse id="Oval-153" cx="518.52" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-152" cx="504.6" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-151" cx="490.68" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-150" cx="476.76" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-149" cx="462.84" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-148" cx="448.92" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-147" cx="435" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-146" cx="421.08" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-145" cx="407.16" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-144" cx="393.24" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-143" cx="379.32" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-142" cx="365.4" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-141" cx="351.48" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-140" cx="337.56" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-139" cx="323.64" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-138" cx="309.72" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-137" cx="295.8" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-136" cx="281.88" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-135" cx="267.96" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-134" cx="254.04" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-133" cx="240.12" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-132" cx="226.2" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-131" cx="212.28" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-130" cx="198.36" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-129" cx="184.44" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-128" cx="170.52" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-127" cx="156.6" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-126" cx="142.68" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-125" cx="128.76" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-124" cx="114.84" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-123" cx="100.92" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-122" cx="87" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-121" cx="73.08" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-120" cx="59.16" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-119" cx="45.24" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-118" cx="31.32" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-117" cx="17.4" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-116" cx="3.48" cy="45.2364865" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-115" cx="518.52" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-114" cx="504.6" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-113" cx="490.68" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-112" cx="476.76" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-111" cx="462.84" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-110" cx="448.92" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-109" cx="435" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-108" cx="421.08" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-107" cx="407.16" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-106" cx="393.24" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-105" cx="379.32" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-104" cx="365.4" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-103" cx="351.48" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-102" cx="337.56" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-101" cx="323.64" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-100" cx="309.72" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-99" cx="295.8" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-98" cx="281.88" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-97" cx="267.96" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-96" cx="254.04" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-95" cx="240.12" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-94" cx="226.2" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-93" cx="212.28" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-92" cx="198.36" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-91" cx="184.44" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-90" cx="170.52" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-89" cx="156.6" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-88" cx="142.68" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-87" cx="128.76" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-86" cx="114.84" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-85" cx="100.92" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-84" cx="87" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-83" cx="73.08" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-82" cx="59.16" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-81" cx="45.24" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-80" cx="31.32" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-79" cx="17.4" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-78" cx="3.48" cy="31.3175676" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-77" cx="518.52" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-76" cx="504.6" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-75" cx="490.68" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-74" cx="476.76" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-73" cx="462.84" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-72" cx="448.92" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-71" cx="435" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-70" cx="421.08" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-69" cx="407.16" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-68" cx="393.24" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-67" cx="379.32" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-66" cx="365.4" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-65" cx="351.48" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-64" cx="337.56" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-63" cx="323.64" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-62" cx="309.72" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-61" cx="295.8" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-60" cx="281.88" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-59" cx="267.96" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-58" cx="254.04" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-57" cx="240.12" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-56" cx="226.2" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-55" cx="212.28" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-54" cx="198.36" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-53" cx="184.44" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-52" cx="170.52" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-51" cx="156.6" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-50" cx="142.68" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-49" cx="128.76" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-48" cx="114.84" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-47" cx="100.92" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-46" cx="87" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-45" cx="73.08" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-44" cx="59.16" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-43" cx="45.24" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-42" cx="31.32" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-41" cx="17.4" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-40" cx="3.48" cy="17.3986486" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-39" cx="518.52" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-38" cx="504.6" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-37" cx="490.68" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-36" cx="476.76" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-35" cx="462.84" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-34" cx="448.92" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-33" cx="435" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-32" cx="421.08" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-31" cx="407.16" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-30" cx="393.24" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-29" cx="379.32" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-28" cx="365.4" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-27" cx="351.48" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-26" cx="337.56" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-25" cx="323.64" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-24" cx="309.72" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-23" cx="295.8" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-22" cx="281.88" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-21" cx="267.96" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-20" cx="254.04" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-19" cx="240.12" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-18" cx="226.2" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-17" cx="212.28" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-16" cx="198.36" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-15" cx="184.44" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-14" cx="170.52" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-13" cx="156.6" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-12" cx="142.68" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-11" cx="128.76" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-10" cx="114.84" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-9" cx="100.92" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-8" cx="87" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-7" cx="73.08" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-6" cx="59.16" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-5" cx="45.24" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-4" cx="31.32" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-3" cx="17.4" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                        <ellipse id="Oval-154" cx="3.48" cy="3.47972973" rx="3.48" ry="3.47972973"></ellipse>
+                    </g>
+                    <g id="Cam" transform="translate(859.000000, 67.000000)">
+                        <mask id="mask-29" fill="white">
+                            <use xlink:href="#path-28"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="#2F2F2F" xlink:href="#path-28"></use>
+                            <use fill-opacity="0.330000013" fill="url(#linearGradient-8)" style="mix-blend-mode: overlay;" xlink:href="#path-28"></use>
+                        </g>
+                        <g id="Front-Cam-3" mask="url(#mask-29)">
+                            <use fill="#383838" fill-rule="evenodd" xlink:href="#path-31"></use>
+                            <ellipse stroke="url(#linearGradient-30)" stroke-width="5" cx="39.94" cy="39.9371311" rx="24" ry="23.9979419"></ellipse>
+                        </g>
+                        <path d="M40.36,54.3559335 C48.6442542,54.3559335 55.36,47.6407093 55.36,39.3570208 C55.36,31.0733323 48.6442542,24.3581081 40.36,24.3581081 C32.0757458,24.3581081 25.36,31.0733323 25.36,39.3570208 C25.36,47.6407093 32.0757458,54.3559335 40.36,54.3559335 Z" id="Oval-3" stroke-opacity="0.664515399" stroke="#030303" stroke-width="2" opacity="0.694146455" mask="url(#mask-29)"></path>
+                        <g id="Oval-354" mask="url(#mask-29)">
+                            <use fill="#262626" fill-rule="evenodd" xlink:href="#path-32"></use>
+                            <circle stroke="#191919" stroke-width="3" cx="40.5" cy="39.5" r="5"></circle>
+                        </g>
+                        <polygon id="Path-16" fill="url(#linearGradient-33)" opacity="0.85261194" mask="url(#mask-29)" transform="translate(27.084857, 41.326300) rotate(184.000000) translate(-27.084857, -41.326300) " points="29.8142973 -10.6864757 -1.04080145 93.3390752 29.8142961 93.3390727 55.2105149 64.2995761 54.5993699 25.9951669"></polygon>
+                        <ellipse id="Front-Cam-2-Copy" stroke="#191919" stroke-width="2" mask="url(#mask-29)" cx="40.02" cy="40.0168919" rx="39.02" ry="39.0168919"></ellipse>
+                    </g>
+                    <rect id="Rectangle-6" fill="#161616" x="797" y="75" width="22" height="65" rx="11"></rect>
+                </g>
+                <g id="buttons" transform="translate(774.000000, 0.000000)">
+                    <rect id="onoff" fill="#121212" x="0" y="0" width="167" height="7" rx="3.5"></rect>
+                    <g id="volume">
+                        <use fill="#896F4E" fill-rule="evenodd" xlink:href="#path-35"></use>
+                        <use fill="url(#linearGradient-34)" fill-rule="evenodd" xlink:href="#path-35"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
+                    </g>
+                </g>
+            </g>
+            <rect id="Screen" fill="#1D2129" x="72" y="267" width="1080" height="1920"></rect>
+        </g>
+    </g>
+</svg>
