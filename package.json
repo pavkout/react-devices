@@ -2,7 +2,7 @@
   "name": "react-devices",
   "version": "0.0.2",
   "description": "React Devices",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack-dev-server --config config/webpack/webpack.config",
     "deploy": "webpack -p --config config/webpack/webpack.config",
